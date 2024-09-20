@@ -1,0 +1,27 @@
+/* src/styles/Donor.css */
+.donor-page {
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #1e3a8a;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  table thead {
+    background-color: #f3f4f6;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
