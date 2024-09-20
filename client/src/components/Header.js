@@ -6,8 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import Lottie from 'react-lottie';
 import animationData from '../animation/animation2.json'; // Adjust the path to your Lottie JSON file
 import { FaEye, FaEyeSlash } from 'react-icons/fa'; // For eye icons
-import jsQR from "jsqr"; // Import jsqr
-import 'react-toastify/dist/ReactToastify.css';
 
 const Header = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -27,33 +25,6 @@ const Header = () => {
     setAccountType(null);
     setPassword("");
     setDecodedPrivateKey(""); // Reset the decoded private key when closing modal
-  };
-
-  const handleQRImageUpload = (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        const img = document.createElement("img");
-        img.src = event.target.result;
-        img.onload = () => {
-          const canvas = document.createElement("canvas");
-          const context = canvas.getContext("2d");
-          canvas.width = img.width;
-          canvas.height = img.height;
-          context.drawImage(img, 0, 0);
-          const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
-          const decoded = jsQR(imageData.data, canvas.width, canvas.height);
-          if (decoded) {
-            setDecodedPrivateKey(decoded.data); // Set the decoded private key
-            toast.success('QR code successfully decoded!');
-          } else {
-            toast.error('Failed to decode QR code.');
-          }
-        };
-      };
-      reader.readAsDataURL(file);
-    }
   };
 
   const handleFormSubmit = () => {
@@ -109,7 +80,7 @@ const Header = () => {
           <span className="font-semibold text-lg text-brown-500">CharConnect</span>
         </a>
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
-        <a className="text-sm font-medium hover:underline underline-offset-4 text-gray-300 hover:text-yellow-400" href="/payment">Payment</a>
+          <a className="text-sm font-medium hover:underline underline-offset-4 text-gray-300 hover:text-yellow-400" href="/payment">Payment</a>
           <a className="text-sm font-medium hover:underline underline-offset-4 text-gray-300 hover:text-yellow-400" href="/about">About</a>
           <a className="text-sm font-medium hover:underline underline-offset-4 text-gray-300 hover:text-yellow-400" href="/">Home</a>
           <button className="text-sm font-medium bg-yellow-500 text-black px-4 py-2 rounded-full hover:bg-yellow-600" onClick={openModal}>Add Account</button>
@@ -139,21 +110,13 @@ const Header = () => {
               <>
                 <h2 className="text-2xl font-semibold mb-6 text-gray-800">{accountType} Account Setup</h2>
                 <div className="flex flex-col gap-4">
-                  <label className="text-sm font-medium text-gray-700 w-full">Upload QR Code
-                    <input
-                      type="file"
-                      accept="image/*"
-                      className="mt-1 p-3 border border-gray-300 rounded w-full"
-                      onChange={handleQRImageUpload}
-                    />
-                  </label>
                   <label className="text-sm font-medium text-gray-700 w-full">Decoded Private Key
                     <div className="relative">
                       <input
                         type={isPrivateKeyVisible ? "text" : "password"}
                         className="mt-1 p-3 mx-0 border border-gray-300 rounded w-full"
                         value={decodedPrivateKey}
-                        placeholder="Private Key will appear here after scanning QR"
+                        placeholder="Private Key will appear here"
                         readOnly
                       />
                       <button
