@@ -84,7 +84,7 @@ npm start
 Watch the demo video to see the entire CharConnect project in action: [Watch Demo Video](https://youtu.be/k9j4TYGbSC0?si=AvFzBl41cuedQ1vp)
 
 <video width="600" controls>
-  <source src="./public/NayaK Intro-2.mp4" type="video/mp4">
+  <source src="./public/Charconnect Demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
