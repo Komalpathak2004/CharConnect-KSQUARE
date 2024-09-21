@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# 💖 CharConnect 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🌟 Secure and Transparent Digital Donations with Blockchain Technology 🌟
 
-## Available Scripts
+![Thumbnail](./public/thumbnail.png)
 
-In the project directory, you can run:
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-### `npm start`
+## 🚀 Problem Statement
+Creating a secure and transparent platform for digital donations using blockchain technology.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🏦 Key Features
+- **Joint Accounts**: Shared private key with individual passwords for enhanced security 🔒.
+- **Transparent Transactions**: Clear, secure deposits and withdrawals 💸.
+- **Blockchain Bills**: Auto-stored transactions pending verification for accountability 📜.
+- **Signature Scanning**: ML-powered technology for enhanced security 🧠.
+- **Real-Time Alerts**: Instant updates for donors and NGOs 🔔.
+- **Smart Contracts**: Automatic fund release upon NGO milestones 🎯.
+- **Universal Payment via QR Code**: Pay with any cryptocurrency by simply scanning a QR code. Powered by the Solidity , this feature allows seamless transactions using wallets like MetaMask or others, automatically recognizing your cryptocurrency choice 💳.
+- **Generative AI Data Analysis**: The database, powered by Filecoin, uses generative AI techniques to analyze transactions, withdrawals, and user ratings. It provides insights through graphs, charts, and clustering, allowing users to query any transaction-related data. The model also predicts insights based on historical transaction data 📊.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 💡 How Different Is This from Other Existing Ideas?
+### Unique Selling Propositions (USP)
+- **Joint Accounts**: Secure shared access with a private key 🔑.
+- **Transparent Bills**: All transactions are stored on the blockchain for full visibility 🌐.
+- **ML Scanning**: Enhanced security through machine learning 🛡️.
+- **Donor Rewards**: Token system to reward donors for their contributions 🎁.
+- **Impact Dashboard**: Tracks and displays donor impact over time 📊.
+- **QR Code Payments**: Effortless cryptocurrency transactions with a simple QR scan, enhancing convenience for users 🔄.
+- **AI-Driven Insights**: Generative AI analyzes user transactions and provides actionable insights, empowering users with data-driven decision-making 📈.
+- **Gas Fee Optimization**: Leveraging Hive to minimize transaction costs, ensuring a smoother user experience 🔧.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Methodology
+This blockchain-based donation platform will utilize:
 
-### `npm run build`
+- **Cryptographic Algorithms**: Implementing state-of-the-art cryptographic methods for security, including SHA-3 for secure hashing 🔐.
+- **Machine Learning Models**: Enhancing transaction security and user verification processes 🤖.
+- **Decentralized Storage**: Ensuring data integrity and availability on a distributed network 🌍.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The platform initiates with joint accounts between donors and NGOs, secured using advanced cryptographic techniques to protect sensitive information. All transactions will remain secure and immutable on the blockchain, safeguarding against tampering and unauthorized access.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+![Mindmap](./public/tech.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📊 Process and Flow
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Process Flow | Visualisation |
+|------------------|-----------|
+| ![Process Flowchart](./public/process.png) | ![Flowchart](./public/flow.png) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Tech Stack](./public/demo.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
-## Learn More
+## 📚 Tech Stack
+- **Blockchain**: Ethereum, Solidity
+- **Frontend**: React.js
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Machine Learning**: Python, Scikit-learn
+- **Deployment**: Docker, AWS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🛠️ Additional Setup
+1. **Install MetaMask**: Add the MetaMask extension to your browser from [MetaMask](https://metamask.io/).
+2. **Install Ganache**: Download Ganache from [Truffle Suite](https://www.trufflesuite.com/ganache) and install it to set up a local blockchain environment.
+3. **Install Truffle**: If you haven't installed Truffle yet, you can do so globally with the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 📄 Getting Started
+To get started with the project, clone this repository and install the necessary dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ ```bash
+git clone https://github.com/komalpathak2004/CharConnect-KSQUARE.git
+cd your-repo-name
+npm install
+npm install -g truffle
+npm start 
+ ```
+ 
+## 🎥 Demo Video
+Watch the demo video to see the entire CharConnect project in action: [Watch Demo Video](https://youtu.be/k9j4TYGbSC0?si=AvFzBl41cuedQ1vp)
 
-### Analyzing the Bundle Size
+Explore how we're using blockchain technology to create a more transparent, secure, and efficient donation ecosystem. For more details, check out our PDF guide linked below. 📄👇
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+###  Pdf To CharConnect Idea and Methodology : https://drive.google.com/file/d/19knQS1vhvk4Igb2P0OlrU9zgTi7A-ajt/view?usp=sharing
 
-### Making a Progressive Web App
+### 🤝 Contributing
+We welcome contributions! Please read our CONTRIBUTING.md for guidelines.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 📬 Contact
+For any inquiries, feel free to reach out:
 
-### Advanced Configuration
+### LinkedIn of Founders of CharConnect: 
+Komal Pathak - https://www.linkedin.com/in/komal-pathak-073127289/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Kunal Nayak - https://www.linkedin.com/in/kunal-nayak-74b189301/ 
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Thank you for checking out our project! Together, we can make a difference in the world of digital donations! | Team RadGov| KSQUARE 🌍💖
