@@ -83,6 +83,11 @@ npm start
 ## 🎥 Demo Video
 Watch the demo video to see the entire CharConnect project in action: [Watch Demo Video](https://youtu.be/k9j4TYGbSC0?si=AvFzBl41cuedQ1vp)
 
+<video width="600" controls>
+  <source src="./public/NayaK Intro-2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 Explore how we're using blockchain technology to create a more transparent, secure, and efficient donation ecosystem. For more details, check out our PDF guide linked below. 📄👇
 
 ###  Pdf To CharConnect Idea and Methodology : https://drive.google.com/file/d/19knQS1vhvk4Igb2P0OlrU9zgTi7A-ajt/view?usp=sharing
